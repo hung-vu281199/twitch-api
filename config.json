@@ -1,0 +1,54 @@
+{
+    "AES_SECRET": "ST@7Qm7KaTGTUar9",
+    "NEWS_API":{
+        "API_KEY": "4e9f401129ef4587a6351468b96216c0"
+    },
+    "GOOGLENEWS_CRAWLER": {  
+        "LANGUAGES":[
+            "Vi",
+            "Sg",
+            "Cn",
+            "Kr",
+            "Jp",
+            "Th"
+        ],
+        "VN_URL": [
+            [
+                "https://www.twitch.tv/directory?sort=RELEVANCE",
+                "all"
+
+            ],
+            [
+                "https://www.twitch.tv/directory/tags/0d4233af-7ac6-49da-937d-e0f42b7db187",
+                "sports"
+            ],
+            [
+                "https://www.twitch.tv/directory/tags/643fe658-c4fc-45f0-9aed-cbe54a7c1d10",
+                "MMO"
+            ],
+            [
+                "https://www.twitch.tv/directory/tags/c8bb9d08-8202-42f8-b028-c59ac1aafe76",
+                "music-games"
+            ],
+            [
+                "https://www.twitch.tv/directory/tags/cf0f97ad-efb8-4494-83ec-6a11ca30261b",
+                "horror"
+            ],
+            [
+                "https://www.twitch.tv/directory/tags/5d289cf9-d75a-42b5-a635-0d117609e6a6",
+                "platform-games"
+            ]
+           
+        ]
+     
+    },
+
+    "DEFAULT_HEADLESS_BROWSER": true,
+    "HEADLESS_BROWSER_TIMEOUT": 20000,
+    "DEV_TOOLS": true,
+
+    "PUPPETEER_ARGS": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox"
+    ]
+}
