@@ -1,8 +1,4 @@
 {
-    "AES_SECRET": "ST@7Qm7KaTGTUar9",
-    "NEWS_API":{
-        "API_KEY": "4e9f401129ef4587a6351468b96216c0"
-    },
     "GOOGLENEWS_CRAWLER": {  
         "LANGUAGES":[
             "Vi",
@@ -38,12 +34,12 @@
                 "https://www.twitch.tv/directory/tags/5d289cf9-d75a-42b5-a635-0d117609e6a6",
                 "platform-games"
             ]
-           
+            
         ]
      
     },
 
-    "DEFAULT_HEADLESS_BROWSER": true,
+    "DEFAULT_HEADLESS_BROWSER": false,
     "HEADLESS_BROWSER_TIMEOUT": 20000,
     "DEV_TOOLS": true,
 
