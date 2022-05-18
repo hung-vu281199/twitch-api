@@ -53,12 +53,12 @@ const scraperObject = {
             const category = require(file)
             for (var j = 0; j < category.length; j++){
 
-                const url = `https://www.twitch.tv/directory/game/${category[j]}?sort=VIEWER_COUNT`;
+                const url = `https://www.twitch.tv/directory/game/${category[j]}/videos/all?sort=VIEWER_COUNT`;
                 
                 await page.goto(url, {
                     waitUntil:'networkidle0'
                 });
-                
+                // sua cho nay
                 const newsData = await page.evaluate((category) => {
                     let result = [];
                     let blocks = document.querySelectorAll('article.Layout-sc-nxg1ff-0')
